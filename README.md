@@ -6,16 +6,16 @@ Simple ruby script using the aws-sdk to list out your instances in a region and 
 
 Edit the following 4 lines of the aws_ssh.rb file
 
-aws_key = "AWS_KEY"
-aws_sec = "AWS_SECRET"
-region = 'us-east-1' 
-ssh_user = 'ec2-user'
+aws_key = "AWS_KEY"   
+aws_sec = "AWS_SECRET"   
+region = 'us-east-1'   
+ssh_user = 'ec2-user'  
 
 ### Requirements
 
-rubygems
-readline
-aws-sdk
+rubygems  
+readline  
+aws-sdk  
 
 ### Usage
 
